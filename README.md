@@ -3,7 +3,9 @@
 该数据集通过以命令下载
 
 ```bash
-wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar --no-check-certificate
+git clone https://github.com/thechentr/ImageNet_val-for-ImageFolder.git
+wget wget -P ILSVRC2012_img_val https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar --no-check-certificate
+tar -xf ILSVRC2012_img_val.tar -C ILSVRC2012_img_val
 ```
 
 并通过脚本整理获得
