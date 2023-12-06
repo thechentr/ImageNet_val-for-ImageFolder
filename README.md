@@ -4,6 +4,8 @@
 
 ```bash
 git clone https://github.com/thechentr/ImageNet_val-for-ImageFolder.git
+cd ImageNet_val-for-ImageFolder
+mkdir ILSVRC2012_img_val
 wget wget -P ILSVRC2012_img_val https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar --no-check-certificate
 tar -xf ILSVRC2012_img_val.tar -C ILSVRC2012_img_val
 ```
