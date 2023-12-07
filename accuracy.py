@@ -13,6 +13,7 @@ if __name__ == '__main__':
     print(f'use {device}')
 
     # 加载预训练的 ResNet 模型
+    print("loading model ......")
     model = timm.create_model('resnet50', pretrained=True)
     model.to(device)
     model.eval()
